@@ -28,3 +28,4 @@ Route::get('user/index', [C_User::class, 'index'])->name('user.index')->middlewa
 Route::get('admin', [C_Auth::class, 'index'] )->name('auth.admin');
 Route::post('login', [C_Auth::class, 'login'])->name('auth.login');
 Route::get('logout', [C_Auth::class,'logout'])->name('auth.logout');
+//nuebufb
